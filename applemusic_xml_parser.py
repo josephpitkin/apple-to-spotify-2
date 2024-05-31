@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 
 # Setup tree and root to parse
 print('Welcome to Music Move!\n')
-playlist = input('Enter the XML file name: ') + '.xml'
+playlist = input('Library.XML')
 tree = ET.parse(playlist)
 root = tree.getroot()
 
